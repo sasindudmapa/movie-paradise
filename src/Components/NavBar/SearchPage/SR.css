@@ -1,0 +1,44 @@
+.search__results {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.MainSearchBox {
+  position: absolute;
+  top: 10vh;
+  left: 30%;
+  /* background-color: black; */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.MainSearchBox input {
+  border-radius: 5px;
+  height: 30px;
+  width: 600px;
+}
+
+.MainSearchBox button {
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 80px;
+  background-color: chartreuse;
+  transition: 350ms;
+}
+
+.MainSearchBox button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 20px 0 chartreuse;
+}
+
+#resultsMain {
+  position: absolute;
+  top: 10vh;
+  margin: 5vh 10vw;
+  align-items: center;
+}
+
+#searchedResutls {
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0%;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  /* background-color: rgb(3, 10, 20); */
+  background-color: rgb(6, 9, 24);
+}

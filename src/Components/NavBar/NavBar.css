@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+
+.navBar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* background-color: rgb(0, 0, 0); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+}
+
+.bgColor {
+  background-color: rgb(0, 0, 0);
+}
+
+.brand__name {
+  margin: 20px;
+  /* color: white; */
+  /* color: rgb(37, 226, 30); */
+
+  font-family: "Sigmar One", cursive;
+  font-size: 50px;
+}
+
+.brand__name:hover > .test {
+  width: 200px;
+}
+
+.test {
+  width: 0;
+}
+
+.nav__items {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0.4;
+}
+
+.navs {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.navs:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search__icon {
+  cursor: pointer;
+  max-width: 35px;
+  transition: 300ms;
+  /* border: solid white; */
+  /* background-color: rgb(0, 214, 0); */
+  /* padding-top: 2px; */
+}
+
+.search__icon:hover {
+  /* background-color: rgb(37, 226, 30); */
+}
+
+.searchBox {
+  border: none;
+  height: 100%;
+  width: 300px;
+  border-radius: 0px;
+  margin-right: 10px;
+  visibility: hidden;
+
+  /* padding-bottom: 20px; */
+}
+
+.search__show {
+  visibility: visible;
+}
+
+.user__icon {
+  max-width: 35px;
+}
+
+.navs {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

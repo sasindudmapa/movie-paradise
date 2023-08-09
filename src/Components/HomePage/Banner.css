@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.banner {
+  margin: 120px auto 50px auto;
+  border-radius: 5px;
+  object-fit: contain;
+  height: 55vh;
+  width: 75vw;
+  box-shadow: 4px 4px 8px 7px #000000;
+  transition: all 450ms;
+}
+
+.banner:hover {
+  /* width: 90.5vw;
+  height: 50.5vh; */
+  box-shadow: 4px 4px 10px 12px #000000;
+  transform: scale(1.007);
+}
+
+.banner__content {
+  color: white;
+  padding: 25vh 60px 100px 20px;
+}
+
+.banner__title {
+  font-family: "Sigmar One", cursive;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.banner__des {
+  color: #e6e6e6;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+
+.banner__buttons {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.button {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 0.5rem;
+}
+
+.button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+#play-btn {
+  transition: all 200ms;
+}
+
+#play-btn:hover {
+  background-color: #131313;
+}
+
+.add__button {
+  background-color: rgba(51, 51, 51, 0);
+  border: none;
+  /* border-radius: 50px; */
+  color: white;
+  padding: 4px 4px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 400ms;
+}
+
+.add__button:hover {
+  /* box-shadow: 0 0 20px 7px #ffffff; */
+  transform: scale(1.4);
+}
